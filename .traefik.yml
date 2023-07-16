@@ -1,0 +1,11 @@
+displayName: GeoIP2 plugin
+type: middleware
+
+import: github.com/scorpion1201/traefik-geoip2
+
+summary: 'MaxMind GeoIP2 traefik plugin'
+
+testData:
+  ASNFileName: GeoIP2-ASN.mmdb
+  CityFileName: GeoIP2-City.mmdb
+  CountryFileName: GeoIP2-Country.mmdb
